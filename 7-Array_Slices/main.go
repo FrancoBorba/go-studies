@@ -49,6 +49,13 @@ func main()  {
 	array[0] = 1 // will change in the slice
 	fmt.Println(slice2)
 
+	// Internal Arrays
+
+	slice3 := make([]float32 , 10 , 15)
+	fmt.Println(slice3)
+	fmt.Println(len(slice3)) // Lenght
+	fmt.Println(cap(slice3)) // capacity
+
 
 
 }
