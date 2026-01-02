@@ -31,7 +31,7 @@ func main()  {
 	*/
 	for index , name := range names {
 		
-		fmt.Printf("The index is %s and the name is %s" , index , name)
+		fmt.Printf("The index is %d and the name is %s" , index , name)
 	}
 
 	// Ignore the indice
